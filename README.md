@@ -1,6 +1,6 @@
-# 📚 Library Book Borrowing Analysis using SQL
+# 📚 Library Book Borrowing Analysis using SQL & Power BI
 
-This project involves data exploration using SQL to uncover patterns and insights from a library transaction dataset. It focuses on understanding user behavior (students vs faculty), popular genres, borrowing trends, and reading durations.
+This project involves data exploration using SQL and visualization with Power BI to uncover patterns and insights from a library transaction dataset. It focuses on understanding user behavior (students vs faculty), popular genres, borrowing trends, reading durations, and seasonal patterns.
 
 ---
 
@@ -9,7 +9,7 @@ This project involves data exploration using SQL to uncover patterns and insight
 The dataset used for this project was sourced from Kaggle:  
 🔗 [Library Transaction Dataset – Kaggle](https://www.kaggle.com/datasets/ziya07/library-transaction-dataset)
 
-It includes transactional records from a library system, allowing for deep behavioral and trend analysis using SQL.
+It contains records of borrowing activity in a library, suitable for both SQL-based analysis and business intelligence dashboards.
 
 ---
 
@@ -71,11 +71,29 @@ Mapped out book category preferences separately for students and faculty.
 Identified peak months of borrowing activity, correlating with exams and breaks.
 
 ---
+---
+
+## 📊 Power BI Dashboard
+
+A comprehensive dashboard was created in **Power BI** to visually represent key insights:
+
+### Included Visualizations:
+- 📅 **Monthly Borrowing Trends** (Line/Area chart)
+- 🧑‍🏫 **User Role Borrowing Breakdown** (Pie/Donut chart)
+- 📘 **Top Book Categories** (Column chart)
+- 👤 **Top 10 Borrowers** (Bar chart)
+- 📆 **Borrowing Heatmap by Month** (Matrix or Heatmap visuals)
+- ⏳ **Average Reading Time by Role & Category** (Combo or clustered visuals)
+
+> The dashboard makes it easy for stakeholders to quickly understand library activity trends and user preferences.
+
+---
 
 ## 🧰 Tools Used
 
-- **MySQL** for querying and analysis
-- SQL IDE: **MySQL Workbench**
+- **MySQL** for querying and data analysis
+- **Power BI** for interactive data visualization
+- IDE: **MySQL Workbench**
 
 ---
 
@@ -86,4 +104,3 @@ Product Designer & Data Analyst
 🌐 [Portfolio Website](https://madebyachuth.framer.website/)
 
 ---
-
